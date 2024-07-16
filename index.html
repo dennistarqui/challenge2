@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+
+    <title>luxury animal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>luxury animal</h1>
+        <p id="contactoMensaje" class="mensaje-contacto"></p> <!-- Contenedor para el mensaje -->
+    </header>
+    <nav>
+        <ul>
+
+            <li><a href="#Contacto" id="contactoLink">Contacto</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="productos-list" id="productos">
+            <h1>Mascotas disponibles</h1>
+            <p id="no-productos">No hay mascotas disponible en este momento.</p>
+            <div class="productos-grid" id="productos-grid"></div>
+        </section>
+        <aside class="nuevo-producto">
+            <h2>Agregar Nueva mascota</h2>
+            <form id="nuevoProductoForm">
+
+                <input type="text" id="nombre" placeholder="Nombre de la mascota" required />
+                <input type="number" id="precio" placeholder="Precio" required />
+                <input type="text" id="imagenUrl" placeholder="URL de la imagen" required />
+                <button type="submit">Agregar mascotas</button>
+                <button type="button" id="borrarCampos">Borrar</button>
+            </form>
+        </aside>
+    </main>
+    <ul class="title__network">
+        <li class="boton">
+            <div class="title__network__item"> <i class="fa-brands fa-github" aria-hidden="true"></i>
+            </div>
+            <span>Github</span>
+        </li>
+        <li class="boton">
+            <div class="title__network__item"><i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+            </div>
+            <span>Linkedin</span>
+        </li>
+        <li class="boton">
+            <div class="title__network__item"><i class="fa-brands fa-instagram" aria-hidden="true"></i>
+            </div>
+            <span>instagram</span>
+        </li>
+        <li class="boton">
+            <div class="title__network__item"><i class="fa-solid fa-file" aria-hidden="true"></i></div>
+            <span>curriculo</span>
+        </li>
+
+    </ul>
+    <footer>
+        <p>© 2020 luxury animal</p>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
